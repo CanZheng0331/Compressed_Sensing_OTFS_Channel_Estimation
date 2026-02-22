@@ -6,7 +6,7 @@ function [nmseResults, timeResults] = simulateOTFSChannelEstimation(numDelayBins
 %   numDopplerBins    - N
 %   carrierFreq       
 %   subcarrierSpacing 
-%   SNRdB             - 信噪比范围 (向量，例如 0:5:30)
+%   SNRdB             - SNR range (0:5:30)
 %   modType           - 'BPSK', 'QPSK', '16QAM'
 %   algorithmList     - {'OMP', ...}
 %   numExperiments    - Monte Carlo simulation times
